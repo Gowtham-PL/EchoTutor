@@ -12,7 +12,7 @@ import Image from "next/image";
 import CompanionsList from "@/components/CompanionsList";
 const Profile = async() => {
     const user=await currentUser();
-    if(!user)redirect('/signin');
+    if(!user)redirect('/sign-in');
     const companions=await getUserCompanions(user.id);
     const sessionHistory=await getUserSession(user.id);
     return (
