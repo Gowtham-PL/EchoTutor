@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className="flex items-center gap-2.5 cursor-pointer">
                     <Image
                         src="/images/logo.svg"
-                        alt="Logo" width={46} height={44}
+                        alt="Logo" width={120} height={120}
                     />
                 </div>
             </Link>
