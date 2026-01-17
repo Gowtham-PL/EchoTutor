@@ -49,7 +49,7 @@ const Profile = async() => {
                             </p>
                         </div>
                         <div>
-                            Lessons completed
+                            Companions Created
                         </div>
                     </div>
                 </div>
